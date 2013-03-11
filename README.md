@@ -30,6 +30,8 @@ Set Up:
 
     Locate cellar.properties and make sure the JDBC connection string matches your database configuration
 
+    Or, you can run using in-memory datastore by uncommenting <script src="js/memorystore.js"></script> in index.html.
+
     Import the Web Project in Intellij.
 
     Run the project using mvn jetty:run.
